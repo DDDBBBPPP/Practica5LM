@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <script src="Ejercicio4.js"></script>
+</head>
+<body>
+    <label for="op1"> Operador 1: </label>
+    <input type="text" id="op1"><br>
+    <label for="op2"> Operador 2: </label>
+    <input type="text" id="op2"><br>
+    <label for="operacion">Elige operación</label>
+    <select id="operacion">
+        <option value="+">Suma</option>
+        <option value="-">Resta</option>
+        <option value="*">Multiplicación</option>
+        <option value="/">División</option>
+    </select><br>
+    <label for="res">Resultado: </label>
+    <input type="text" id="res"  value=""> 
+    <button type="button" onclick="calcular()">Calcular</button>
+</body>
+</html>
